@@ -22,9 +22,9 @@ After advancement in space travel, humans began sending satellites and radio sig
 
 
 ## Softwares Used
-Game Engine: Unity
-Graphics/Animations: Aesprite
-Sound Design: FamiStudio
+* Game Engine: Unity
+* Graphics/Animations: Aesprite
+* Sound Design: FamiStudio
 
 ## Assets Citations
 * Mechanical Gun Shoot: 9mm pistol shot (https://pixabay.com/sound-effects/9mm-pistol-shot-6349/)
