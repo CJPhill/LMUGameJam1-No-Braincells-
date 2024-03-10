@@ -53,6 +53,11 @@ public class GameManager : Singleton<GameManager>
         {
             Destroy(enemy);
         }
+        GameObject[] ammos = GameObject.FindGameObjectsWithTag("Ammo");
+        foreach (GameObject ammo in ammos)
+        {
+            Destroy(ammo);
+        }
         player.SetActive(true);
         IntroUI.SetActive(false);
         EndGameUI.SetActive(false);
