@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9eb7d8e099799434e9943e6e12487416
+guid: bd32da2fb504c404387bb73e8389ff40
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -137,8 +137,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb8c7ff9fde7a3a4eb1c5e58d274c1d2
-      internalID: -299545358
+      spriteID: d5760f0ea63a7ae41af9f3846208ffdd
+      internalID: 2035682616
       vertices: []
       indices: 
       edges: []
@@ -158,8 +158,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 143337e683055444280685132c85720f
-      internalID: -154325867
+      spriteID: f30a82886e7d06046a3080f8d0b4b4c0
+      internalID: 1898150278
       vertices: []
       indices: 
       edges: []
@@ -179,8 +179,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6a865daddaf23d74b8541d326924b647
-      internalID: -1890226070
+      spriteID: b6c805f9af32f454f8c09d387e0714ff
+      internalID: -1019691935
       vertices: []
       indices: 
       edges: []
@@ -200,8 +200,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0a8caddda699591418ecafeb832bcec2
-      internalID: -1937367329
+      spriteID: 81e9168b7215423438121ed852acfd85
+      internalID: 81071221
       vertices: []
       indices: 
       edges: []
@@ -221,8 +221,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d3d83681c40a8c64280aa2f7dd372f54
-      internalID: -193848342
+      spriteID: aab2fca565d65dc429d59368ee8cba1e
+      internalID: 2054175120
       vertices: []
       indices: 
       edges: []
@@ -242,8 +242,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 84275480b6360b74198e23d9cf2cc985
-      internalID: 1868515202
+      spriteID: c3eb7867636eb1742b76427bfea06eaa
+      internalID: 95377071
       vertices: []
       indices: 
       edges: []
@@ -263,8 +263,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 331fdde983b831e42bc65bc48187b261
-      internalID: 430110853
+      spriteID: fa31cb074ea515b4bacd19284c092ca5
+      internalID: -919129612
       vertices: []
       indices: 
       edges: []
@@ -284,8 +284,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a0e876ff5b30103438f0964b32f0b0ef
-      internalID: -33735413
+      spriteID: 59c55a5a3721de148a103a400e84964a
+      internalID: -1961678646
       vertices: []
       indices: 
       edges: []
@@ -305,8 +305,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 400dc2ee7c9f26c47b2ca8f04391590a
-      internalID: 2081718484
+      spriteID: 3ffd7198c8d6afd479252bd7f71ee966
+      internalID: -1116764521
       vertices: []
       indices: 
       edges: []
@@ -326,8 +326,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a86d840a05ae7e54db6af6f9e5ae7cc4
-      internalID: -2092360843
+      spriteID: 6ebbf01e8e20b0140a355602a8bcfd5d
+      internalID: -933788964
       vertices: []
       indices: 
       edges: []
@@ -347,8 +347,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 36b711c9823575a43b857d4ddd3b3a85
-      internalID: 1460167501
+      spriteID: 04d0179d41f32364eb53e57a26b00cad
+      internalID: 1332524240
       vertices: []
       indices: 
       edges: []
@@ -368,8 +368,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 58f8a5bfccbc5ff40ba2db7373d4d2f0
-      internalID: 1345452530
+      spriteID: d82fc10e9f9d162418fd5deb977bface
+      internalID: -2032937564
       vertices: []
       indices: 
       edges: []
@@ -385,18 +385,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Alien-Sheet_0: -299545358
-      Alien-Sheet_1: -154325867
-      Alien-Sheet_10: 1460167501
-      Alien-Sheet_11: 1345452530
-      Alien-Sheet_2: -1890226070
-      Alien-Sheet_3: -1937367329
-      Alien-Sheet_4: -193848342
-      Alien-Sheet_5: 1868515202
-      Alien-Sheet_6: 430110853
-      Alien-Sheet_7: -33735413
-      Alien-Sheet_8: 2081718484
-      Alien-Sheet_9: -2092360843
+      Alien-Sheet_0: 2035682616
+      Alien-Sheet_1: 1898150278
+      Alien-Sheet_10: 1332524240
+      Alien-Sheet_11: -2032937564
+      Alien-Sheet_2: -1019691935
+      Alien-Sheet_3: 81071221
+      Alien-Sheet_4: 2054175120
+      Alien-Sheet_5: 95377071
+      Alien-Sheet_6: -919129612
+      Alien-Sheet_7: -1961678646
+      Alien-Sheet_8: -1116764521
+      Alien-Sheet_9: -933788964
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

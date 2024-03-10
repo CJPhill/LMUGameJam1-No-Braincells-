@@ -43,8 +43,9 @@ public class PlayerController : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Enemy")){
             //player dies
-            Destroy(gameObject);
+            gameObject.SetActive(false);
             gameManager.playerDead = true;
+            gameManager.EndGameUI.SetActive(true);
 
         }
         else if (collision.gameObject.CompareTag("Ammo"))

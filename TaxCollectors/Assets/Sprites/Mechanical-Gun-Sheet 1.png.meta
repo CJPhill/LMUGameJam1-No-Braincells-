@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7dfe553d8432d0943858f632a1b9ba13
+guid: a864232c0afe1864ea1d854e49ca80ee
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -137,8 +137,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d172465175faab1428c769797a27cfd7
-      internalID: 844039651
+      spriteID: 630978ea21ccb5b4aa44645280a6bce9
+      internalID: 277191958
       vertices: []
       indices: 
       edges: []
@@ -158,8 +158,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0bcd7fa2469f3014ba60913c74250bf0
-      internalID: -696878428
+      spriteID: 594ec9c3f32f62145b736469771d7941
+      internalID: -956481936
       vertices: []
       indices: 
       edges: []
@@ -179,8 +179,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6d29a572d9e98864f9176d08826ad072
-      internalID: -479210704
+      spriteID: ce5a54d74a457d14aa5ac7ead0463a2a
+      internalID: 975461543
       vertices: []
       indices: 
       edges: []
@@ -200,8 +200,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 26e94c80ddc19cf4698225abf770d016
-      internalID: -1266361354
+      spriteID: 8e70fcbe1e095034090b5537f5885dd0
+      internalID: 1797358750
       vertices: []
       indices: 
       edges: []
@@ -217,10 +217,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Mechanical-Gun-Sheet 1_0: 844039651
-      Mechanical-Gun-Sheet 1_1: -696878428
-      Mechanical-Gun-Sheet 1_2: -479210704
-      Mechanical-Gun-Sheet 1_3: -1266361354
+      Mechanical-Gun-Sheet 1_0: 277191958
+      Mechanical-Gun-Sheet 1_1: -956481936
+      Mechanical-Gun-Sheet 1_2: 975461543
+      Mechanical-Gun-Sheet 1_3: 1797358750
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
