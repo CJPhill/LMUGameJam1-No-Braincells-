@@ -7,14 +7,14 @@ public class Bullet : MonoBehaviour
 {
     public GameObject hitEffect;
     private Camera mainCamera;
-    private GameManager gameManager;
+    private GameManager gameManager;    
     public int chance = 10;
    
     private void Start()
     {
         mainCamera = Camera.main;
         gameManager = FindAnyObjectByType<GameManager>();
-
+        
         
     }
 
@@ -28,17 +28,28 @@ public class Bullet : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        
-        if (collision.gameObject.CompareTag("Enemy")){
+
+        if (collision.gameObject.CompareTag("Enemy")) {
             GameObject effect = Instantiate(hitEffect, transform.position, Quaternion.identity);
             Destroy(effect, 5f);
             Destroy(collision.gameObject);
             gameManager.AddScore(100);
             gameManager.SpawnAmmoBox(15, (Vector2)transform.position);
-
-
-
         }
+        if (collision.gameObject.CompareTag("Robot"))
+            {
+                Robot robotScirpt = collision.gameObject.GetComponent<Robot>();
+            if (robotScirpt.hurt())
+                {
+                gameManager.playRobotDeathSound();
+                    GameObject effectRobo = Instantiate(hitEffect, transform.position, Quaternion.identity);
+                    Destroy(effectRobo, 5f);
+                    Destroy(collision.gameObject);
+                    gameManager.AddScore(500);
+                    gameManager.SpawnAmmoBox(30, (Vector2)transform.position);
+                }
+                
+            }
         if (!collision.gameObject.CompareTag("Player") && !collision.gameObject.CompareTag("Ammo"))
         {
             Destroy(gameObject);

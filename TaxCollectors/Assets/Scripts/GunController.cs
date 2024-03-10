@@ -20,12 +20,16 @@ public class GunController : MonoBehaviour
     private Vector2 mousePos;
     private Animator animator;
     private AudioSource audioSource;
+    private GameManager gameManager;
+    public AudioSource emergencyReload;
+
     private void Start()
     {
         AmmoAlert.SetActive(false);
         timer = 5f;
         animator = GetComponent<Animator>();
         audioSource = GetComponent<AudioSource>();
+        gameManager = FindAnyObjectByType<GameManager>();
     }
 
     private void Update()
@@ -44,6 +48,13 @@ public class GunController : MonoBehaviour
             Shoot();
         }
         SetBulletAmnt();
+        if (gameManager.playerDead == true)
+        {
+            timer = 0;
+            ammo = 20;
+            AmmoAlert.SetActive(false);
+        }
+        
     }
     public void AddAmmo()
     {
@@ -86,6 +97,7 @@ public class GunController : MonoBehaviour
             AmmoAlert.SetActive(false);
             timer = 5f;
             ammo += 10;
+            emergencyReload.Play();
         }
         
         

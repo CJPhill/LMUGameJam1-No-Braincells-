@@ -8,6 +8,7 @@ public class GameManager : Singleton<GameManager>
 {
     public GameObject enemyPrefab; // Assign your enemy prefab in the Unity Inspector
     public GameObject ammoPrefab;
+    public GameObject robotPrefab;
     public GameObject player;
     public GunController gun;
     public Transform playerSpawn;
@@ -24,6 +25,7 @@ public class GameManager : Singleton<GameManager>
     private int highScore = 0;
     private float spawnInterval; // Current time between spawns
     private float nextSpawnTime; // When to spawn the next enemy
+    public int spawnChanceRobo = 20;
 
     private Camera mainCamera; // Reference to the main camera
     public bool playerDead;
@@ -31,6 +33,9 @@ public class GameManager : Singleton<GameManager>
     public GameObject GameUI;
     public GameObject IntroUI;
     public GameObject EndGameUI;
+
+    public AudioSource robotDeathSound;
+    public AudioSource playerDeathSound;
 
     void Awake()
     {
@@ -52,6 +57,11 @@ public class GameManager : Singleton<GameManager>
         foreach (GameObject enemy in enemies)
         {
             Destroy(enemy);
+        }
+        GameObject[] robots = GameObject.FindGameObjectsWithTag("Robot");
+        foreach (GameObject robot in robots)
+        {
+            Destroy(robot);
         }
         GameObject[] ammos = GameObject.FindGameObjectsWithTag("Ammo");
         foreach (GameObject ammo in ammos)
@@ -99,10 +109,27 @@ public class GameManager : Singleton<GameManager>
     {
         score += amt;
     }
+
+    public void playPlayerDeathSound()
+    {
+        playerDeathSound.Play();
+    }
+    public void playRobotDeathSound()
+    {
+        robotDeathSound.Play();
+    }
     void SpawnEnemyOffScreen()
     {
+
         Vector2 spawnPosition = GetRandomOffScreenPosition();
-        Instantiate(enemyPrefab, spawnPosition, Quaternion.identity);
+        if (Random.Range(0, 100) > spawnChanceRobo)
+        {
+            Instantiate(enemyPrefab, spawnPosition, Quaternion.identity);
+        }
+        else
+        {
+            Instantiate(robotPrefab, spawnPosition, Quaternion.identity);
+        }
     }
 
     public void SpawnAmmoBox(int chance, Vector2 spawnPosition)

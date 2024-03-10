@@ -8,11 +8,13 @@ public class PlayerController : MonoBehaviour
     private Animator animator;
     public GunController gunController;
     private GameManager gameManager;
+    
 
     private void Start()
     {
         animator = GetComponent<Animator>();
         gameManager = FindAnyObjectByType<GameManager>();
+        
 
     }
 
@@ -41,8 +43,9 @@ public class PlayerController : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Enemy")){
+        if (collision.gameObject.CompareTag("Enemy") || collision.gameObject.CompareTag("Robot")){
             //player dies
+            gameManager.playPlayerDeathSound();
             gameObject.SetActive(false);
             gameManager.playerDead = true;
             gameManager.EndGameUI.SetActive(true);

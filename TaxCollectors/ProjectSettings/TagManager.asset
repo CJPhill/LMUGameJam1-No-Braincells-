@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Enemy
   - Ammo
+  - Robot
   layers:
   - Default
   - TransparentFX
