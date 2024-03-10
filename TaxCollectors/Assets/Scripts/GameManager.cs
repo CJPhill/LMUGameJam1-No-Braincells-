@@ -32,7 +32,7 @@ public class GameManager : Singleton<GameManager>
     public GameObject IntroUI;
     public GameObject EndGameUI;
 
-    void Start()
+    void Awake()
     {
         Time.timeScale = 0.0f;
         playerDead = true;
