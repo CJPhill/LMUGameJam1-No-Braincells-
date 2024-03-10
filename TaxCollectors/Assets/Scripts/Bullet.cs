@@ -1,14 +1,21 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
     public GameObject hitEffect;
     private Camera mainCamera;
+    private GameManager gameManager;
+    public int chance = 10;
+   
     private void Start()
     {
         mainCamera = Camera.main;
+        gameManager = FindAnyObjectByType<GameManager>();
+
+        
     }
 
     private void Update()
@@ -25,11 +32,16 @@ public class Bullet : MonoBehaviour
         //Destroy(effect, 5f);
         if (collision.gameObject.CompareTag("Enemy")){
             Destroy(collision.gameObject);
+            gameManager.AddScore(100);
+            gameManager.SpawnAmmoBox(15, (Vector2)transform.position);
+
+
 
         }
-        if (!collision.gameObject.CompareTag("Player"))
+        if (!collision.gameObject.CompareTag("Player") && !collision.gameObject.CompareTag("Ammo"))
         {
             Destroy(gameObject);
+
         }
         
     }

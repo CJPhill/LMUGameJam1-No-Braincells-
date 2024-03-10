@@ -1,39 +1,61 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class GameManager : Singleton<GameManager>
 {
     public GameObject enemyPrefab; // Assign your enemy prefab in the Unity Inspector
+    public GameObject ammoPrefab;
+    
     public float initialSpawnDelay = 2.0f; // Time before the first enemy spawns
     public float spawnIntervalDecrease = 0.1f; // Decrease in time between spawns
     public float minimumSpawnInterval = 0.5f; // Minimum time between spawns
 
+    public TextMeshProUGUI ScoreTxt;
+    private int score = 0;
     private float spawnInterval; // Current time between spawns
     private float nextSpawnTime; // When to spawn the next enemy
 
     private Camera mainCamera; // Reference to the main camera
+    public bool playerDead;
 
     void Start()
     {
         mainCamera = Camera.main; // Cache the main camera
         spawnInterval = initialSpawnDelay;
         nextSpawnTime = Time.time + spawnInterval; // Schedule the first spawn
+        score = 0;
+        playerDead = false;
+        
     }
 
     void Update()
     {
-        if (Time.time >= nextSpawnTime)
+        if (Time.time >= nextSpawnTime && playerDead == false)
         {
             SpawnEnemyOffScreen();
             UpdateSpawnTiming();
         }
+        ScoreTxt.text = "Score: " + score.ToString();
     }
 
+    public void AddScore(int amt)
+    {
+        score += amt;
+    }
     void SpawnEnemyOffScreen()
     {
         Vector2 spawnPosition = GetRandomOffScreenPosition();
         Instantiate(enemyPrefab, spawnPosition, Quaternion.identity);
+    }
+
+    public void SpawnAmmoBox(int chance, Vector2 spawnPosition)
+    {
+        if (Random.Range(0, 100) < chance)
+        {
+            Instantiate(ammoPrefab, spawnPosition, Quaternion.identity);
+        }
     }
 
     Vector2 GetRandomOffScreenPosition()
