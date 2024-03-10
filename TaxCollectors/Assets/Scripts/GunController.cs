@@ -7,6 +7,7 @@ public class GunController : MonoBehaviour
     public Transform firePoint; // The point from where the projectile will be fired
     public GameObject bulletPrefab; // The projectile prefab
     public float bulletForce = 10f; // The speed of the projectile
+    public int ammo = 20;
 
     private Vector2 mousePos;
 

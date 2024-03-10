@@ -22,4 +22,12 @@ public class PlayerController : MonoBehaviour
         // Move the player by adding the movement vector to the current position
         transform.Translate(movement, Space.World);
     }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Enemy")){
+            //player dies
+            Destroy(gameObject);
+        }
+    }
 }

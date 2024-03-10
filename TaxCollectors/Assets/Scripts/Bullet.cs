@@ -25,8 +25,13 @@ public class Bullet : MonoBehaviour
         //Destroy(effect, 5f);
         if (collision.gameObject.CompareTag("Enemy")){
             Destroy(collision.gameObject);
+
         }
-        Destroy(gameObject);
+        if (!collision.gameObject.CompareTag("Player"))
+        {
+            Destroy(gameObject);
+        }
+        
     }
 
     bool IsVisible()
