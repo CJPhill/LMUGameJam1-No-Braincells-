@@ -1,0 +1,1192 @@
+fileFormatVersion: 2
+guid: 4c89144b791995f40b96e881debaf587
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 16
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 638456295636373567
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: MoneyExplosion (2)_Frame_0
+    originalName: 
+    pivot: {x: 0.5, y: -3.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 77
+      y: 248
+      width: 4
+      height: 4
+    spriteID: d65ce31982635c745b7dc7262b6e20bb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 77, y: 248}
+  - name: MoneyExplosion (2)_Frame_1
+    originalName: 
+    pivot: {x: 0.5, y: -1.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 105
+      y: 210
+      width: 8
+      height: 8
+    spriteID: dc0f7c4dd8a05fc4f80babd81ddbbf2c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 105, y: 210}
+  - name: MoneyExplosion (2)_Frame_2
+    originalName: 
+    pivot: {x: 0.5, y: -1.1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 105
+      y: 156
+      width: 10
+      height: 10
+    spriteID: fe7f148a3dd04814bb5f6c728592ed1c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 105, y: 156}
+  - name: MoneyExplosion (2)_Frame_3
+    originalName: 
+    pivot: {x: 0.5, y: -1.1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 105
+      y: 174
+      width: 10
+      height: 10
+    spriteID: a5318b8177c061743a33cb21a542e3d4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 105, y: 174}
+  - name: MoneyExplosion (2)_Frame_4
+    originalName: 
+    pivot: {x: 0.5, y: -1.1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 105
+      y: 192
+      width: 10
+      height: 10
+    spriteID: c3788f03c29cfd84ea8013359bc81602
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 105, y: 192}
+  - name: MoneyExplosion (2)_Frame_5
+    originalName: 
+    pivot: {x: 0.5, y: -0.8333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 105
+      y: 56
+      width: 12
+      height: 12
+    spriteID: d52460456bf6d9c47aa06aa6d4ebf507
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 105, y: 56}
+  - name: MoneyExplosion (2)_Frame_6
+    originalName: 
+    pivot: {x: 0.5, y: -0.8333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 105
+      y: 76
+      width: 12
+      height: 12
+    spriteID: 9e8984162430b944eb9f65095d69c975
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 105, y: 76}
+  - name: MoneyExplosion (2)_Frame_7
+    originalName: 
+    pivot: {x: 0.5, y: -0.8333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 105
+      y: 96
+      width: 12
+      height: 12
+    spriteID: 82342892769f6a043b62aac9341ceec8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 105, y: 96}
+  - name: MoneyExplosion (2)_Frame_8
+    originalName: 
+    pivot: {x: 0.5, y: -0.8333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 105
+      y: 116
+      width: 12
+      height: 12
+    spriteID: e2a95c8aa5a66694cb954e5efc2f228f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 105, y: 116}
+  - name: MoneyExplosion (2)_Frame_9
+    originalName: 
+    pivot: {x: 0.5, y: -0.8333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 105
+      y: 136
+      width: 12
+      height: 12
+    spriteID: f1feecb1e6383b746be03287a99a6f21
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 105, y: 136}
+  - name: MoneyExplosion (2)_Frame_10
+    originalName: 
+    pivot: {x: 0.55, y: -0.35}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 77
+      y: 4
+      width: 20
+      height: 20
+    spriteID: 8f96ca94685a9d74d85df13fd7645b75
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 77, y: 4}
+  - name: MoneyExplosion (2)_Frame_11
+    originalName: 
+    pivot: {x: 0.5, y: -0.16}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 37
+      width: 28
+      height: 25
+    spriteID: bc3cf7d8fc67deb47b8e3839111c351f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 37}
+  - name: MoneyExplosion (2)_Frame_12
+    originalName: 
+    pivot: {x: 0.56, y: -0.35}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 232
+      width: 25
+      height: 20
+    spriteID: ea2aa867b584b1342957d931901cda49
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 232}
+  - name: MoneyExplosion (2)_Frame_13
+    originalName: 
+    pivot: {x: 0.5555556, y: -0.27272728}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 42
+      y: 67
+      width: 27
+      height: 22
+    spriteID: 540170c475ef0c94688c0d4ed01a44e7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 42, y: 67}
+  - name: MoneyExplosion (2)_Frame_14
+    originalName: 
+    pivot: {x: 0.5, y: -0.17391305}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 42
+      y: 36
+      width: 26
+      height: 23
+    spriteID: 0f3b738c8efb8bb49b22ac214c8a5e3a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 42, y: 36}
+  - name: MoneyExplosion (2)_Frame_15
+    originalName: 
+    pivot: {x: 0.4814815, y: -0.125}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 200
+      width: 27
+      height: 24
+    spriteID: 2bee2f5d5f4623140b920e6fea914c1b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 200}
+  - name: MoneyExplosion (2)_Frame_16
+    originalName: 
+    pivot: {x: 0.4666667, y: -0.08695652}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 103
+      width: 30
+      height: 23
+    spriteID: cd766f3ba32edef4389f9f1b3925342f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 103}
+  - name: MoneyExplosion (2)_Frame_17
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 30
+      height: 25
+    spriteID: 52f7ab2ea8c184e4a91752ee5f28391f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: MoneyExplosion (2)_Frame_18
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 70
+      width: 28
+      height: 25
+    spriteID: 802bcc193246b6340b22faff27fef1e2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 70}
+  - name: MoneyExplosion (2)_Frame_19
+    originalName: 
+    pivot: {x: 0.5555556, y: -0.041666668}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 42
+      y: 4
+      width: 27
+      height: 24
+    spriteID: d556ed69764f6fe4f828eec10c261a81
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 42, y: 4}
+  - name: MoneyExplosion (2)_Frame_20
+    originalName: 
+    pivot: {x: 0.5185185, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 134
+      width: 27
+      height: 25
+    spriteID: 19e3d8db8a4103045ac192fd462a42d6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 134}
+  - name: MoneyExplosion (2)_Frame_21
+    originalName: 
+    pivot: {x: 0.4814815, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 167
+      width: 27
+      height: 25
+    spriteID: 3f94b744a9360e640b9dacba9043a5f1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 167}
+  - name: MoneyExplosion (2)_Frame_22
+    originalName: 
+    pivot: {x: 0.5185185, y: -0.3888889}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 42
+      y: 188
+      width: 27
+      height: 18
+    spriteID: 9e4f97f22cffa2849a5345c79b7fd62b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 42, y: 188}
+  - name: MoneyExplosion (2)_Frame_23
+    originalName: 
+    pivot: {x: 0.48, y: -0.1904762}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 42
+      y: 159
+      width: 25
+      height: 21
+    spriteID: e609516584dc5ff48a21575e376b6ab0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 42, y: 159}
+  - name: MoneyExplosion (2)_Frame_24
+    originalName: 
+    pivot: {x: 0.52, y: -0.13636364}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 42
+      y: 97
+      width: 25
+      height: 22
+    spriteID: a784515044cb7754ea25232cec3e1b55
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 42, y: 97}
+  - name: MoneyExplosion (2)_Frame_25
+    originalName: 
+    pivot: {x: 0.5, y: -0.041666668}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 42
+      y: 127
+      width: 22
+      height: 24
+    spriteID: 21e6847d18695ba4998174cc49f7f490
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 42, y: 127}
+  - name: MoneyExplosion (2)_Frame_26
+    originalName: 
+    pivot: {x: 0.5263158, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 42
+      y: 214
+      width: 19
+      height: 25
+    spriteID: e3c9b016393088d419e27d1f1a474b73
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 42, y: 214}
+  - name: MoneyExplosion (2)_Frame_27
+    originalName: 
+    pivot: {x: 0.53333336, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 77
+      y: 32
+      width: 15
+      height: 25
+    spriteID: 186bf2461aeca3f439982cc87385dcf6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 77, y: 32}
+  - name: MoneyExplosion (2)_Frame_28
+    originalName: 
+    pivot: {x: 0.53846157, y: -0.041666668}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 77
+      y: 65
+      width: 13
+      height: 24
+    spriteID: 70f8b6857eb496742a61c2d706a599d3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 77, y: 65}
+  - name: MoneyExplosion (2)_Frame_29
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 77
+      y: 97
+      width: 12
+      height: 25
+    spriteID: a41c09e79f54e7b4fa9c78e5d936b7e1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 77, y: 97}
+  - name: MoneyExplosion (2)_Frame_30
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 77
+      y: 130
+      width: 12
+      height: 25
+    spriteID: f4dcde4ae68981249ac68ae0872a585e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 77, y: 130}
+  - name: MoneyExplosion (2)_Frame_31
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 77
+      y: 163
+      width: 12
+      height: 25
+    spriteID: a27dbc59a7f416440999ab4275a33d06
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 77, y: 163}
+  - name: MoneyExplosion (2)_Frame_32
+    originalName: 
+    pivot: {x: 0.5, y: -0.3888889}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 77
+      y: 196
+      width: 12
+      height: 18
+    spriteID: bf5567ccbc8464948b4129a68b73e87d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 77, y: 196}
+  - name: MoneyExplosion (2)_Frame_33
+    originalName: 
+    pivot: {x: 0.5, y: -0.3888889}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 77
+      y: 222
+      width: 12
+      height: 18
+    spriteID: 3dbcacfe4f03d904e9fcb5e0d250368b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 77, y: 222}
+  - name: MoneyExplosion (2)_Frame_34
+    originalName: 
+    pivot: {x: 0.5, y: -0.3888889}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 105
+      y: 4
+      width: 12
+      height: 18
+    spriteID: dc564144c2211984a92ffc66b6543e08
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 105, y: 4}
+  - name: MoneyExplosion (2)_Frame_35
+    originalName: 
+    pivot: {x: 0.5, y: -0.3888889}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 105
+      y: 30
+      width: 12
+      height: 18
+    spriteID: ffc606b3de75ea54d9b7b5c410f7c213
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 105, y: 30}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 849612628
+    name: MoneyExplosion (2)
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: MoneyExplosion (2)_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 14
+        y: 14
+        width: 4
+        height: 4
+      spriteId: d65ce31982635c745b7dc7262b6e20bb
+    - name: MoneyExplosion (2)_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 12
+        y: 12
+        width: 8
+        height: 8
+      spriteId: dc0f7c4dd8a05fc4f80babd81ddbbf2c
+    - name: MoneyExplosion (2)_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 11
+        y: 11
+        width: 10
+        height: 10
+      spriteId: fe7f148a3dd04814bb5f6c728592ed1c
+    - name: MoneyExplosion (2)_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 11
+        y: 11
+        width: 10
+        height: 10
+      spriteId: a5318b8177c061743a33cb21a542e3d4
+    - name: MoneyExplosion (2)_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 11
+        y: 11
+        width: 10
+        height: 10
+      spriteId: c3788f03c29cfd84ea8013359bc81602
+    - name: MoneyExplosion (2)_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 10
+        y: 10
+        width: 12
+        height: 12
+      spriteId: d52460456bf6d9c47aa06aa6d4ebf507
+    - name: MoneyExplosion (2)_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 10
+        y: 10
+        width: 12
+        height: 12
+      spriteId: 9e8984162430b944eb9f65095d69c975
+    - name: MoneyExplosion (2)_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 10
+        y: 10
+        width: 12
+        height: 12
+      spriteId: 82342892769f6a043b62aac9341ceec8
+    - name: MoneyExplosion (2)_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 10
+        y: 10
+        width: 12
+        height: 12
+      spriteId: e2a95c8aa5a66694cb954e5efc2f228f
+    - name: MoneyExplosion (2)_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 10
+        y: 10
+        width: 12
+        height: 12
+      spriteId: f1feecb1e6383b746be03287a99a6f21
+    - name: MoneyExplosion (2)_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 5
+        y: 7
+        width: 20
+        height: 20
+      spriteId: 8f96ca94685a9d74d85df13fd7645b75
+    - name: MoneyExplosion (2)_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 2
+        y: 4
+        width: 28
+        height: 25
+      spriteId: bc3cf7d8fc67deb47b8e3839111c351f
+    - name: MoneyExplosion (2)_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 2
+        y: 7
+        width: 25
+        height: 20
+      spriteId: ea2aa867b584b1342957d931901cda49
+    - name: MoneyExplosion (2)_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 1
+        y: 6
+        width: 27
+        height: 22
+      spriteId: 540170c475ef0c94688c0d4ed01a44e7
+    - name: MoneyExplosion (2)_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 3
+        y: 4
+        width: 26
+        height: 23
+      spriteId: 0f3b738c8efb8bb49b22ac214c8a5e3a
+    - name: MoneyExplosion (2)_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 3
+        y: 3
+        width: 27
+        height: 24
+      spriteId: 2bee2f5d5f4623140b920e6fea914c1b
+    - name: MoneyExplosion (2)_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 2
+        y: 2
+        width: 30
+        height: 23
+      spriteId: cd766f3ba32edef4389f9f1b3925342f
+    - name: MoneyExplosion (2)_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 1
+        y: 0
+        width: 30
+        height: 25
+      spriteId: 52f7ab2ea8c184e4a91752ee5f28391f
+    - name: MoneyExplosion (2)_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 2
+        y: 0
+        width: 28
+        height: 25
+      spriteId: 802bcc193246b6340b22faff27fef1e2
+    - name: MoneyExplosion (2)_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 1
+        y: 1
+        width: 27
+        height: 24
+      spriteId: d556ed69764f6fe4f828eec10c261a81
+    - name: MoneyExplosion (2)_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 2
+        y: 0
+        width: 27
+        height: 25
+      spriteId: 19e3d8db8a4103045ac192fd462a42d6
+    - name: MoneyExplosion (2)_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 3
+        y: 0
+        width: 27
+        height: 25
+      spriteId: 3f94b744a9360e640b9dacba9043a5f1
+    - name: MoneyExplosion (2)_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 2
+        y: 7
+        width: 27
+        height: 18
+      spriteId: 9e4f97f22cffa2849a5345c79b7fd62b
+    - name: MoneyExplosion (2)_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 4
+        y: 4
+        width: 25
+        height: 21
+      spriteId: e609516584dc5ff48a21575e376b6ab0
+    - name: MoneyExplosion (2)_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 3
+        y: 3
+        width: 25
+        height: 22
+      spriteId: a784515044cb7754ea25232cec3e1b55
+    - name: MoneyExplosion (2)_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 5
+        y: 1
+        width: 22
+        height: 24
+      spriteId: 21e6847d18695ba4998174cc49f7f490
+    - name: MoneyExplosion (2)_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 6
+        y: 0
+        width: 19
+        height: 25
+      spriteId: e3c9b016393088d419e27d1f1a474b73
+    - name: MoneyExplosion (2)_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 8
+        y: 0
+        width: 15
+        height: 25
+      spriteId: 186bf2461aeca3f439982cc87385dcf6
+    - name: MoneyExplosion (2)_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 9
+        y: 1
+        width: 13
+        height: 24
+      spriteId: 70f8b6857eb496742a61c2d706a599d3
+    - name: MoneyExplosion (2)_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 10
+        y: 0
+        width: 12
+        height: 25
+      spriteId: a41c09e79f54e7b4fa9c78e5d936b7e1
+    - name: MoneyExplosion (2)_Frame_30
+      frameIndex: 30
+      cellRect:
+        x: 10
+        y: 0
+        width: 12
+        height: 25
+      spriteId: f4dcde4ae68981249ac68ae0872a585e
+    - name: MoneyExplosion (2)_Frame_31
+      frameIndex: 31
+      cellRect:
+        x: 10
+        y: 0
+        width: 12
+        height: 25
+      spriteId: a27dbc59a7f416440999ab4275a33d06
+    - name: MoneyExplosion (2)_Frame_32
+      frameIndex: 32
+      cellRect:
+        x: 10
+        y: 7
+        width: 12
+        height: 18
+      spriteId: bf5567ccbc8464948b4129a68b73e87d
+    - name: MoneyExplosion (2)_Frame_33
+      frameIndex: 33
+      cellRect:
+        x: 10
+        y: 7
+        width: 12
+        height: 18
+      spriteId: 3dbcacfe4f03d904e9fcb5e0d250368b
+    - name: MoneyExplosion (2)_Frame_34
+      frameIndex: 34
+      cellRect:
+        x: 10
+        y: 7
+        width: 12
+        height: 18
+      spriteId: dc564144c2211984a92ffc66b6543e08
+    - name: MoneyExplosion (2)_Frame_35
+      frameIndex: 35
+      cellRect:
+        x: 10
+        y: 7
+        width: 12
+        height: 18
+      spriteId: ffc606b3de75ea54d9b7b5c410f7c213
+    linkedCells: []
+    parentIndex: -1
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Server
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: WebGL
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 32, y: 32}

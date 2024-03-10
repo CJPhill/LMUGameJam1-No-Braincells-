@@ -28,9 +28,10 @@ public class Bullet : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        //GameObject effect = Instantiate(hitEffect, transform.position, Quaternion.identity);
-        //Destroy(effect, 5f);
+        
         if (collision.gameObject.CompareTag("Enemy")){
+            GameObject effect = Instantiate(hitEffect, transform.position, Quaternion.identity);
+            Destroy(effect, 5f);
             Destroy(collision.gameObject);
             gameManager.AddScore(100);
             gameManager.SpawnAmmoBox(15, (Vector2)transform.position);

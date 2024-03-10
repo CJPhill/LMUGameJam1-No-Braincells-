@@ -23,11 +23,20 @@ public class GameManager : Singleton<GameManager>
     void Start()
     {
         mainCamera = Camera.main; // Cache the main camera
+        newGame();
+        
+    }
+
+    void newGame()
+    {
         spawnInterval = initialSpawnDelay;
         nextSpawnTime = Time.time + spawnInterval; // Schedule the first spawn
         score = 0;
         playerDead = false;
-        
+        //Reset player location
+        //Gun Controller reset
+        //ammo reset
+        //all enemies deleted
     }
 
     void Update()
@@ -37,7 +46,7 @@ public class GameManager : Singleton<GameManager>
             SpawnEnemyOffScreen();
             UpdateSpawnTiming();
         }
-        ScoreTxt.text = "Score: " + score.ToString();
+        ScoreTxt.text = "Taxes Recovered: $" + score.ToString();
     }
 
     public void AddScore(int amt)

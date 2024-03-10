@@ -18,14 +18,22 @@ public class GunController : MonoBehaviour
     public TextMeshProUGUI BulletsAmnt;
 
     private Vector2 mousePos;
+    private Animator animator;
+    private AudioSource audioSource;
     private void Start()
     {
         AmmoAlert.SetActive(false);
         timer = 5f;
+        animator = GetComponent<Animator>();
+        audioSource = GetComponent<AudioSource>();
     }
 
     private void Update()
     {
+        if (timer > 0 && ammo > 0)
+        {
+            AmmoAlert.SetActive(false);
+        }
         if (ammo <=0)
         {
             ammoAlert();
@@ -56,10 +64,12 @@ public class GunController : MonoBehaviour
     {
         if (ammo > 0)
         {
+            audioSource.Play();
             ammo--;
             GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
             Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
             rb.AddForce(firePoint.up * bulletForce, ForceMode2D.Impulse);
+            animator.SetTrigger("Shoot");
         }
     }
 

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 395da835227b15449912c0eea6658ea9
+guid: 9eb7d8e099799434e9943e6e12487416
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,55 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Mechanical-Gun-Sheet_0
-      rect:
-        serializedVersion: 2
-        x: 4
-        y: 17
-        width: 7
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a73a3626c24533c499f3ee9b3a31552e
-      internalID: -23449936
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mechanical-Gun-Sheet_1
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 21
-        width: 12
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e8969b56206bc8242adc221950f55789
-      internalID: -1289164725
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mechanical-Gun-Sheet_2
+      name: Alien-Sheet_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 5
-        width: 13
-        height: 7
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1a4154c944e2afe439089146d925fc5e
-      internalID: 1373012371
+      spriteID: eb8c7ff9fde7a3a4eb1c5e58d274c1d2
+      internalID: -299545358
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mechanical-Gun-Sheet_3
+      name: Alien-Sheet_1
       rect:
         serializedVersion: 2
         x: 16
-        y: 5
-        width: 14
-        height: 7
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,20 +158,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1009ec1a81d6bb446aca5d81b3dba22c
-      internalID: -903293968
+      spriteID: 143337e683055444280685132c85720f
+      internalID: -154325867
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mechanical-Gun-Sheet_4
+      name: Alien-Sheet_2
       rect:
         serializedVersion: 2
         x: 32
-        y: 5
-        width: 14
-        height: 7
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -221,8 +179,197 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4dd55d4db037a94499d39b37f8886e1d
-      internalID: 659989597
+      spriteID: 6a865daddaf23d74b8541d326924b647
+      internalID: -1890226070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a8caddda699591418ecafeb832bcec2
+      internalID: -1937367329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3d83681c40a8c64280aa2f7dd372f54
+      internalID: -193848342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84275480b6360b74198e23d9cf2cc985
+      internalID: 1868515202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 331fdde983b831e42bc65bc48187b261
+      internalID: 430110853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0e876ff5b30103438f0964b32f0b0ef
+      internalID: -33735413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 400dc2ee7c9f26c47b2ca8f04391590a
+      internalID: 2081718484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a86d840a05ae7e54db6af6f9e5ae7cc4
+      internalID: -2092360843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36b711c9823575a43b857d4ddd3b3a85
+      internalID: 1460167501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58f8a5bfccbc5ff40ba2db7373d4d2f0
+      internalID: 1345452530
       vertices: []
       indices: 
       edges: []
@@ -238,11 +385,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Mechanical-Gun-Sheet_0: -23449936
-      Mechanical-Gun-Sheet_1: -1289164725
-      Mechanical-Gun-Sheet_2: 1373012371
-      Mechanical-Gun-Sheet_3: -903293968
-      Mechanical-Gun-Sheet_4: 659989597
+      Alien-Sheet_0: -299545358
+      Alien-Sheet_1: -154325867
+      Alien-Sheet_10: 1460167501
+      Alien-Sheet_11: 1345452530
+      Alien-Sheet_2: -1890226070
+      Alien-Sheet_3: -1937367329
+      Alien-Sheet_4: -193848342
+      Alien-Sheet_5: 1868515202
+      Alien-Sheet_6: 430110853
+      Alien-Sheet_7: -33735413
+      Alien-Sheet_8: 2081718484
+      Alien-Sheet_9: -2092360843
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
