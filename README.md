@@ -19,13 +19,3 @@ After advancement in space travel, humans began sending satellites and radio sig
 ## Assets Citations
 * Mechanical Gun Shoot: 9mm pistol shot (https://pixabay.com/sound-effects/9mm-pistol-shot-6349/)
 * Reload: 1911 Reload (https://pixabay.com/sound-effects/1911-reload-6248/).
-
-
-## Softwares Used
-* Game Engine: Unity
-* Graphics/Animations: Aesprite
-* Sound Design: FamiStudio
-
-## Assets Citations
-* Mechanical Gun Shoot: 9mm pistol shot (https://pixabay.com/sound-effects/9mm-pistol-shot-6349/)
-* Reload: 1911 Reload (https://pixabay.com/sound-effects/1911-reload-6248/).
