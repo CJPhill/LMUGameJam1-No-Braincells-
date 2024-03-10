@@ -1,9 +1,4 @@
-# LMUGameJam1-No-Braincells-
-Entry for the LMU Game Jam 2024
-
-Team Name: No Braincells (Team 1)
-
-# LMUGameJam1-No-Braincells-
+# LMUGameJam1-No-Braincells
 Entry for the LMU Game Jam 2024
 
 Team Name: No Braincells (Team 1)
